@@ -13,6 +13,8 @@
         <script src="/custom.js"></script>
     </head>
     <body>
+        <div th:replace="/fragment/navbar :: navbar"></div>
+
         <div class="container">
             <h2>Welcome!</h2>
             <form th:action="@{/login}" method="post"><br/>
